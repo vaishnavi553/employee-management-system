@@ -1,0 +1,42 @@
+.header {
+  height: 70px;
+  background: #ffffff;
+  border-bottom: 1px solid #e6e6e6;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding: 0 30px;
+  position: fixed;
+  left: 240px;
+  right: 0;
+  top: 0;
+  z-index: 100;
+}
+
+.headerRight {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.iconBox {
+  width: 35px;
+  height: 35px;
+  background: #f2f2f2;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.iconBox:hover {
+  background: #e4e4e4;
+}
+
+.profileImage {
+  width: 38px;
+  height: 38px;
+  border-radius: 50%;
+  cursor: pointer;
+}

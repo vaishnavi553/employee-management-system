@@ -1,0 +1,190 @@
+.page {
+  margin-left: 240px;
+  margin-top: 70px;
+  padding: 0px;
+  background: white;
+  min-height: calc(100vh - 70px);
+  box-sizing: border-box;  
+}
+
+
+.topbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 25px;
+}
+
+.addBtn {
+  background: #1976d2;
+  color: white;
+  border: none;
+  padding: 10px 18px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.addBtn:hover {
+  background: #145ca4;
+}
+
+/* table {
+  width: 100%;
+  border-collapse: collapse;
+  background: white;
+  border-radius: 8px;
+  overflow: hidden;
+  border: 2px solid black;
+} */
+.tableCard {
+  background: white;
+  border: 1px solid #b4afaf;
+  border-radius: 10px;
+  overflow: auto;
+}
+table thead th {
+  text-align: left;
+  font-weight: 500;
+  font-size: 14px;
+  color: #6b7280;
+  padding: 14px 16px;
+  border-bottom: 1px solid #b4afaf;
+}
+table{
+  width: 100%;
+  border-collapse: collapse;
+}
+table tbody td {
+  padding: 16px;
+  border-bottom: 1px solid #b4afaf;
+  font-size: 14px;
+}
+
+
+thead {
+  background: white;
+}
+
+th{
+  padding: 14px;
+  text-align: left;
+  border-bottom: 1px solid #797373;
+  font-weight: normal;
+  color: #413f3f;
+}               
+td {
+  padding: 14px;
+  text-align: left;
+  border-bottom: 1px solid #797373;
+  color: black;
+  font-family: 'Inter', sans-serif;
+}
+
+td img {
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  margin-right: 8px;
+  vertical-align: middle;
+}
+
+.icon {
+  margin-right: 12px;
+  cursor: pointer;
+}
+
+.icon:hover {
+  color: #1976d2;
+}
+
+.empty {
+  text-align: center;
+  padding: 30px;
+}
+
+
+
+.actions {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.searchInput {
+  padding: 8px 12px;
+  border: 1px solid #ccc;
+  background: white;
+  color: black;
+  border-radius: 6px;
+  width: 200px;
+}
+
+.searchInput:focus {
+  outline: none;
+  border-color: #1976d2;
+}
+
+
+table img {
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-right: 8px;
+}
+
+
+h2{
+  color: black;
+}
+
+
+.modalOverlay {
+  position: fixed;
+  top: 0;
+  left: 240px;
+  width: calc(100% - 240px);
+  height: 100%;
+  background: #00000066;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modalBox {
+  background: white;
+  padding: 25px;
+  border-radius: 10px;
+  width: 300px;
+  text-align: center;
+}
+
+.modalIcon {
+  font-size: 40px;
+  margin-bottom: 10px;
+}
+
+.modalButtons {
+  display: flex;
+  margin-top: 15px;
+}
+
+.modalButtons button {
+  flex: 1;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+}
+
+.modalButtons .cancelBtn {
+  background: #ff4d4f;
+  color: white;
+}
+
+.modalButtons .confirmBtn {
+  background: #1677ff;
+  color: white;
+}
+.searchInput::placeholder{
+  font-family: 'Inter', sans-serif;
+}
