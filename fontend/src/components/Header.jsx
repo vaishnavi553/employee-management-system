@@ -1,5 +1,6 @@
 import "./Header.css";
 import { FaBell, FaCog } from "react-icons/fa";
+import profilePic from "../assets/billie.jpg";
 
 function Header() {
   return (
@@ -17,7 +18,7 @@ function Header() {
 
         <img
           className="profileImage"
-          src="http://localhost:5000/uploads/billie.jpg"
+          src={profilePic}
           alt="profile"
         />
 
